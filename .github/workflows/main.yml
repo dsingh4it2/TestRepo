@@ -4,10 +4,10 @@ name: Run Helloworld Script
 on:
   push:
     branches:
-      - main  # Runs the workflow when pushing to the main branch
+      - TestBranch  # Runs the workflow when pushing to the main branch
   pull_request:
     branches:
-      - main  # Runs when a pull request is created/updated
+      - TestBranch  # Runs when a pull request is created/updated
   workflow_dispatch:  # Enables manual execution from the GitHub Actions tab
 
 jobs:
