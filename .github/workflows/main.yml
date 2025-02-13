@@ -27,6 +27,6 @@ jobs:
         run: pip install -r requirements.txt || echo "No dependencies found"
 
       - name: Run Python Script
-        run: python helloworld.py
+        run: python Helloword.py
 
   
